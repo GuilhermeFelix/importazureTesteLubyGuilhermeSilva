@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamadaPareada", "Apihorasde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dados", "Apihorasdesenvolvedor.Dados\Dados.csproj", "{E0529B93-A876-429E-98A6-AE1F2383F642}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servico", "Apihorasdesenvolvedor.Servico\Servico.csproj", "{EFD90178-7641-46B6-9468-8FA6C122001C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,17 @@ Global
 		{E0529B93-A876-429E-98A6-AE1F2383F642}.Release|x64.Build.0 = Release|Any CPU
 		{E0529B93-A876-429E-98A6-AE1F2383F642}.Release|x86.ActiveCfg = Release|Any CPU
 		{E0529B93-A876-429E-98A6-AE1F2383F642}.Release|x86.Build.0 = Release|Any CPU
+		{EFD90178-7641-46B6-9468-8FA6C122001C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD90178-7641-46B6-9468-8FA6C122001C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFD90178-7641-46B6-9468-8FA6C122001C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EFD90178-7641-46B6-9468-8FA6C122001C}.Debug|x64.Build.0 = Debug|Any CPU
+		{EFD90178-7641-46B6-9468-8FA6C122001C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EFD90178-7641-46B6-9468-8FA6C122001C}.Debug|x86.Build.0 = Debug|Any CPU
+		{EFD90178-7641-46B6-9468-8FA6C122001C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFD90178-7641-46B6-9468-8FA6C122001C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFD90178-7641-46B6-9468-8FA6C122001C}.Release|x64.ActiveCfg = Release|Any CPU
+		{EFD90178-7641-46B6-9468-8FA6C122001C}.Release|x64.Build.0 = Release|Any CPU
+		{EFD90178-7641-46B6-9468-8FA6C122001C}.Release|x86.ActiveCfg = Release|Any CPU
+		{EFD90178-7641-46B6-9468-8FA6C122001C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
