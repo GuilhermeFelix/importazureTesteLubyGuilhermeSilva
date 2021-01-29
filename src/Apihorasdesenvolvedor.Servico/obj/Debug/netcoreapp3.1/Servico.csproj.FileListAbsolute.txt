@@ -7,3 +7,10 @@ C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Servico\obj
 C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Servico\obj\Debug\netcoreapp3.1\Servico.csproj.CoreCompileInputs.cache
 C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Servico\obj\Debug\netcoreapp3.1\Servico.dll
 C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Servico\obj\Debug\netcoreapp3.1\Servico.pdb
+C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Servico\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Servico\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Servico\obj\Debug\netcoreapp3.1\Servico.csproj.CopyComplete
+C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Servico\bin\Debug\netcoreapp3.1\CamadaPareada.dll
+C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Servico\bin\Debug\netcoreapp3.1\Dados.dll
+C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Servico\bin\Debug\netcoreapp3.1\Dados.pdb
+C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Servico\bin\Debug\netcoreapp3.1\CamadaPareada.pdb

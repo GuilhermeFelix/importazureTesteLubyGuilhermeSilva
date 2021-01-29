@@ -3,5 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-
+ <ItemGroup>
+    <ProjectReference Include="..\Apihorasdesenvolvedor.Dominio\Dominio.csproj" />
+    <ProjectReference Include="..\Apihorasdesenvolvedor.Dados\Dados.csproj" />
+    <ProjectReference Include="..\Apihorasdesenvolvedor.CamadaPareada\CamadaPareada.csproj" />
+  </ItemGroup>
 </Project>
