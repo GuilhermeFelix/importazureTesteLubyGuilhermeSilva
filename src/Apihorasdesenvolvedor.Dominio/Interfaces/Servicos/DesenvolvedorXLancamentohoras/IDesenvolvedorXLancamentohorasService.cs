@@ -1,7 +1,8 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Apihorasdesenvolvedor.Dominio.Entidades;
 
-namespace Apihorasdesenvolvedor.Dominio.Interfaces.Servico.DesenvolvedorXLancamentohoras
+namespace Apihorasdesenvolvedor.Dominio.Interfaces.Servicos.DesenvolvedorXLancamentohoras
 {
     public interface IDesenvolvedorXLancamentohorasService
     {

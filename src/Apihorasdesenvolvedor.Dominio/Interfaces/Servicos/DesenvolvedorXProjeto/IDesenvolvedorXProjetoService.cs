@@ -1,7 +1,8 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Apihorasdesenvolvedor.Dominio.Entidades;
 
-namespace Apihorasdesenvolvedor.Dominio.Interfaces.Servico.DesenvolvedorXProjeto
+namespace Apihorasdesenvolvedor.Dominio.Interfaces.Servicos.DesenvolvedorXProjeto
 {
     public interface IDesenvolvedorXProjetoService
     {

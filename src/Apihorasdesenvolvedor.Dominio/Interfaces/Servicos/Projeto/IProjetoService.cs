@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Apihorasdesenvolvedor.Dominio.Entidades;
 
-namespace Apihorasdesenvolvedor.Dominio.Interfaces.Servico.Projeto
+namespace Apihorasdesenvolvedor.Dominio.Interfaces.Servicos.Projeto
 {
     public interface IProjetoService
     {
