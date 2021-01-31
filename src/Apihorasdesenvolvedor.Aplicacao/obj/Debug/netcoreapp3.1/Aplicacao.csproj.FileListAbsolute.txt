@@ -71,3 +71,8 @@ C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Aplicacao\b
 C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Aplicacao\obj\Debug\netcoreapp3.1\Aplicacao.csproj.CopyComplete
 C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Aplicacao\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Aplicacao\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Aplicacao\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Aplicacao\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Aplicacao\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Aplicacao\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Aplicacao\obj\Debug\netcoreapp3.1\Aplicacao.MvcApplicationPartsAssemblyInfo.cs

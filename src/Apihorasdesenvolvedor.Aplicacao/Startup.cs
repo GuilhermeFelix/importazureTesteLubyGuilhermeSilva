@@ -30,6 +30,8 @@ namespace Aplicacao
             ConfiguracaoServico.ConfiguracaoDependenciaServico(services);
             ConfiguracaoRepositorio.ConfiguracaoRepositorioDependencia(services);
             services.AddControllers();
+
+            services.AddSwaggerGen();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,6 +42,12 @@ namespace Aplicacao
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseSwagger();
+            app.UseSwaggerUI(x =>
+            {
+                x.SwaggerEndpoint("/swagger/v1/swagger.json", "Api Horas Desenvolvedor Luby");
+                x.RoutePrefix = string.Empty;
+            });
             app.UseRouting();
 
             app.UseAuthorization();

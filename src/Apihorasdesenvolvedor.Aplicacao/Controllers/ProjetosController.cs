@@ -83,6 +83,7 @@ namespace Apihorasdesenvolvedor.Aplicacao.Controllers
             }
         }
 
+        [HttpPut]
         public async Task<ActionResult> Put([FromBody] ProjetoEntity projeto)
         {
             if (!ModelState.IsValid)
