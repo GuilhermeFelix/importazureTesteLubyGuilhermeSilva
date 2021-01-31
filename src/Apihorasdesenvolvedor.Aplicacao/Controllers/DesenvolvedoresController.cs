@@ -18,6 +18,8 @@ namespace Apihorasdesenvolvedor.Aplicacao.Controllers
             _servicodesenvolvedor = service;
         }
 
+
+      
         [HttpGet]
         public async Task<ActionResult> GetAll([FromServices] IDesenvolvedorService service)
         {
