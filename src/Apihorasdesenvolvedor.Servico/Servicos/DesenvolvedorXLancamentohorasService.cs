@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Apihorasdesenvolvedor.Dominio.Entidades;
 using Apihorasdesenvolvedor.Dominio.Interfaces;
 using Apihorasdesenvolvedor.Dominio.Interfaces.Servicos.DesenvolvedorXLancamentohoras;
+using Apihorasdesenvolvedor.Servico.Servicos.BO;
 
 namespace Apihorasdesenvolvedor.Servico.Servicos
 {
@@ -38,12 +39,15 @@ namespace Apihorasdesenvolvedor.Servico.Servicos
             return await _repository.UpdateAsync(desenvolvedorXLancamentohoras);
         }
 
+
         public async Task<IEnumerable<DesenvolvedorXLancamentohorasEntity>> GetFiveTop()
         {
+           RelatorioHoras novorelatorio = new RelatorioHoras(_repository);
+
+            var implementaraquiobo  = novorelatorio.TopFiveDesenvolvedoresAsync();
+
             return await _repository.SelectAsync();
-
-        }
-
+        }        
 
     }
 
