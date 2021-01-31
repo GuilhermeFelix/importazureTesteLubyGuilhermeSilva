@@ -6,3 +6,4 @@ C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Dominio\obj
 C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
 C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
 C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\Luby\Projeto\src\API_HorasDesenvolvedor\src\Apihorasdesenvolvedor.Dominio\obj\Debug\netcoreapp3.1\Dominio.csprojAssemblyReference.cache

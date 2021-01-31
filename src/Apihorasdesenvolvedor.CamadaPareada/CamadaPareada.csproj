@@ -1,5 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\Apihorasdesenvolvedor.Dominio\Dominio.csproj" />
+    <ProjectReference Include="..\Apihorasdesenvolvedor.Servico\Servico.csproj" />
+    <ProjectReference Include="..\Apihorasdesenvolvedor.Dados\Dados.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>

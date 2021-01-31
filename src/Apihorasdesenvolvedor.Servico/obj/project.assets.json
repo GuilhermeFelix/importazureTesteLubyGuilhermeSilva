@@ -1392,16 +1392,6 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "CamadaPareada/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/CamadaPareada.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CamadaPareada.dll": {}
-        }
-      },
       "Dados/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -5327,11 +5317,6 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "CamadaPareada/1.0.0": {
-      "type": "project",
-      "path": "../Apihorasdesenvolvedor.CamadaPareada/CamadaPareada.csproj",
-      "msbuildProject": "../Apihorasdesenvolvedor.CamadaPareada/CamadaPareada.csproj"
-    },
     "Dados/1.0.0": {
       "type": "project",
       "path": "../Apihorasdesenvolvedor.Dados/Dados.csproj",
@@ -5345,7 +5330,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "CamadaPareada >= 1.0.0",
       "Dados >= 1.0.0",
       "Dominio >= 1.0.0"
     ]
@@ -5380,9 +5364,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Luby\\Projeto\\src\\API_HorasDesenvolvedor\\src\\Apihorasdesenvolvedor.CamadaPareada\\CamadaPareada.csproj": {
-              "projectPath": "C:\\Luby\\Projeto\\src\\API_HorasDesenvolvedor\\src\\Apihorasdesenvolvedor.CamadaPareada\\CamadaPareada.csproj"
-            },
             "C:\\Luby\\Projeto\\src\\API_HorasDesenvolvedor\\src\\Apihorasdesenvolvedor.Dados\\Dados.csproj": {
               "projectPath": "C:\\Luby\\Projeto\\src\\API_HorasDesenvolvedor\\src\\Apihorasdesenvolvedor.Dados\\Dados.csproj"
             },
