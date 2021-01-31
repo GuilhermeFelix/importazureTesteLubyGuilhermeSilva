@@ -11,5 +11,6 @@ namespace Apihorasdesenvolvedor.Dominio.Interfaces.Servicos.DesenvolvedorXLancam
         Task<DesenvolvedorXLancamentohorasEntity> Post(DesenvolvedorXLancamentohorasEntity desenvolvedorXLancamentohoras);
         Task<DesenvolvedorXLancamentohorasEntity> Put(DesenvolvedorXLancamentohorasEntity desenvolvedorXLancamentohoras);
         Task<bool> Delete(int id);
+        Task<IEnumerable<DesenvolvedorXLancamentohorasEntity>> GetFiveTop();
     }
 }

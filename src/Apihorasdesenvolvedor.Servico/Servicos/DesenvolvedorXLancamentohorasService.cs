@@ -37,6 +37,13 @@ namespace Apihorasdesenvolvedor.Servico.Servicos
         {
             return await _repository.UpdateAsync(desenvolvedorXLancamentohoras);
         }
+
+        public async Task<IEnumerable<DesenvolvedorXLancamentohorasEntity>> GetFiveTop()
+        {
+            return await _repository.SelectAsync();
+        }
+
+
     }
 
 }

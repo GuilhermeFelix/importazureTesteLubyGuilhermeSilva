@@ -35,6 +35,26 @@ namespace Apihorasdesenvolvedor.Aplicacao.Controllers
 
         [HttpGet]
         [Route("{id}", Name = "GetDesenvolvedorXLancamentohorasWithId")]
+        public async Task<ActionResult> Get()
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            try
+            {
+                return Ok(await _servicodesenvolvedorxlancamentohoras.GetFiveTop());
+            }
+            catch (ArgumentException e)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
+            }
+
+        }
+
+        [HttpGet]
+        [Route("{id}", Name = "GetDesenvolvedorXLancamentohorasFiveTop")]
         public async Task<ActionResult> Get(int id)
         {
             if (!ModelState.IsValid)
