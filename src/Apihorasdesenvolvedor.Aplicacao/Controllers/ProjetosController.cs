@@ -36,7 +36,7 @@ namespace Apihorasdesenvolvedor.Aplicacao.Controllers
         }
 
         [HttpGet]
-        [Route("{id}", Name = "GetManagerWithId")]
+        [Route("{id}", Name = "GetProjetoWithId")]
         public async Task<ActionResult> Get(int id)
         {
             if (!ModelState.IsValid)
@@ -69,7 +69,7 @@ namespace Apihorasdesenvolvedor.Aplicacao.Controllers
                 var result = await _servicoprojetos.Post(projeto);
                 if (result != null)
                 {
-                    return Created(new Uri(Url.Link("GetManagerWithId", new { id = result.id })), result);
+                    return Created(new Uri(Url.Link("GetProjetoWithId", new { id = result.id })), result);
                 }
                 else
                 {

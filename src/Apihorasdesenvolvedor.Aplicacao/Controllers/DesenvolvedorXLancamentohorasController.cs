@@ -34,7 +34,7 @@ namespace Apihorasdesenvolvedor.Aplicacao.Controllers
         }
 
         [HttpGet]
-        [Route("{id}", Name = "GetManagerWithId")]
+        [Route("{id}", Name = "GetDesenvolvedorXLancamentohorasWithId")]
         public async Task<ActionResult> Get(int id)
         {
             if (!ModelState.IsValid)
